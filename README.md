@@ -195,3 +195,4 @@ Ce projet est sous licence de Léopold THIERRY donc faut pas toucher sinon pas c
 Lien de la vidéo de présentation :
 https://youtu.be/RFzNk6YvNrM 
 Désolé la vidéo est vraiment longue, j'ai éssayé de faire au plus court comme tu avais demandé mais j'ai voulu parler de tout. Bonne corection à toi, n'hésite pas a me faire un retour sur discord je suis curieux de savoir ce que tu penses.
+P.S. je viens de voir que sur la vidéo on ne voit pas les menus déroulant nottamment pour les types ou la langue pour le filtrage, si besoin je peux refaire cet exemple.
