@@ -40,3 +40,140 @@
 .read-the-docs {
   color: #888;
 }
+
+.pokemon-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pokemon-preview {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+  text-align: center;
+}
+
+.pokemon-preview:hover {
+  transform: translateY(-5px);
+}
+
+.pokemon-preview img {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  display: block;
+}
+
+.pokemon-preview h3 {
+  margin: 10px 0 0;
+  color: #333;
+}
+
+.pokemon-image {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  display: block;
+}
+
+.search-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+  color: #000;
+}
+
+.type-select {
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+  min-width: 150px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.type-select:hover {
+  border-color: #999;
+}
+
+.shiny-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.shiny-checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.shiny-toggle label {
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.detail-toggle {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.detail-toggle label {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* ... existing code ... */
+
+.battle-section {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.battle-button {
+  background-color: #ff3838;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.battle-button:hover {
+  background-color: #ff0000;
+}
