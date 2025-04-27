@@ -1,0 +1,6 @@
+faire un menu d'acceuil
+faire un menu de navigation
+pouvoir faire des combats entre un pokemon choisi et un pokemon aléatoire
+faire un system d'ouverture de booster pour compléter son pokedex et mettre des notes sur les pokemons et aussi mettre un taux de drop de shiny <<
+afficher le pokemons qu'on a, une sorte de pokedex perso
+
